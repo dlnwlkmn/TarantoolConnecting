@@ -12,6 +12,11 @@ def main():
     print("\033[33mtester\033[31m1\033[0m:")
     print(tester1.select(3))
 
+    print("\033[33mtester\033[0m:")
+    print(tester.select())
+    print("\033[33mtester\033[31m1\033[0m:")
+    print(tester1.select())
+
 
 if __name__== "__main__":
     main()
