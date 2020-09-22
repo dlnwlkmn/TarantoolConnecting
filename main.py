@@ -15,7 +15,10 @@ def main():
     print("\033[33mtester\033[0m:")
     print(tester.select())
     print("\033[33mtester\033[31m1\033[0m:")
-    print(tester1.select())
+    print(tester1.select(),"\n")
+
+    print(tester)
+    print(tester1)
 
 
 if __name__== "__main__":
