@@ -20,6 +20,13 @@ def main():
     print(tester)
     print(tester1)
 
+    print(f"ping: {connection.ping()}")
+
+    tester2 = connection.space('tester2')
+
+    print("\033[33mtester\033[31m2\033[0m:")
+    print(tester2.select(), "\n")
+
 
 if __name__== "__main__":
     main()
