@@ -32,6 +32,11 @@ def main():
     print("\033[33m\ntester\033[31m2\033[0m:")
     print(tester2.select(), "\n")
 
+    connection.call('box.space.tester2:drop', ())
+
+    print("\033[33m\ntester\033[31m2\033[0m:")
+    print(tester2.select(), "\n")
+
 if __name__== "__main__":
     main()
 
